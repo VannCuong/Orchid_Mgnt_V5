@@ -1,3 +1,14 @@
-node_modules/
-dist/
+# Environment variables
 .env
+**/.env
+
+# Generated frontend files
+**/node_modules/
+**/dist/
+
+# Generated backend files
+**/target/
+
+# IDE files
+.idea/
+*.iml

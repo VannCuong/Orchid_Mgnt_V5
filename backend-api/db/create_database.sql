@@ -1,0 +1,10 @@
+IF DB_ID(N'SBA301_OrchidDB') IS NULL
+BEGIN
+    CREATE DATABASE SBA301_OrchidDB;
+END;
+GO
+
+USE SBA301_OrchidDB;
+GO
+
+SELECT DB_NAME() AS current_database;
